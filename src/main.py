@@ -25,6 +25,8 @@ g = ini.cargar_grafo()
 
 #print(g.degree("Madrid"))
 #print(ruta.ruta(g, "hola", 1))
+print(ruta.ruta(g, "Barbadori", "Lamberteschi"))
+
 
 gui.dibujar(g)
 
