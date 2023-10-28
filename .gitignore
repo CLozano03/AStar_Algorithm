@@ -1,3 +1,4 @@
-#comentario
-
-doc/
+#Archivos y directorios que no se deseen subir al repositorio
+.idea/
+__pycache__/
+#doc/
