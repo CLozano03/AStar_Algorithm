@@ -42,7 +42,10 @@ def posicionar(g):
 
     #se puede poner como opción en draw(pos = nx.f_layout())
 
-    pos = nx.kamada_kawai_layout(g, g.nodes()) #funciona
+#    pos = nx.kamada_kawai_layout(g, g.nodes()) #funciona
+#    pos = nx.random_layout(g)
+
+    pos = nx.planar_layout(g)
     return pos
 
 
