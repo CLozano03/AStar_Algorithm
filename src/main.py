@@ -16,9 +16,9 @@
 import networkx as nx   #Librería de grafos
 import matplotlib.pyplot as plt     #Librería gráfica
 
-import GUI.interfaz as gui
-import Backend.cargar_grafo as ini
-import Backend.ruta as ruta
+import gui.interfaz as gui
+import backend.cargar_grafo as ini
+import backend.ruta as ruta
 
 
 g = ini.cargar_grafo()
