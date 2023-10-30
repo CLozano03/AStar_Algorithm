@@ -9,7 +9,7 @@
 
 import matplotlib.pyplot as plt     #Librería gráfica
 import networkx as nx   #Librería de grafos
-
+from backend import cargar_grafo as cg
 
 
 def dibujar(g):
@@ -42,10 +42,10 @@ def posicionar(g):
 
     #se puede poner como opción en draw(pos = nx.f_layout())
 
-#    pos = nx.kamada_kawai_layout(g, g.nodes()) #funciona
-#    pos = nx.random_layout(g)
+    pos = nx.kamada_kawai_layout(g, g.nodes()) #funciona
 
-    pos = nx.planar_layout(g)
+    pos = cg.coordenadas()
+
     return pos
 
 
