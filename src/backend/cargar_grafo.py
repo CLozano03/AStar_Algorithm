@@ -1,4 +1,5 @@
 #Cargar nodos y aristas
+import math
 
 #Sería buena idea tener guardadas coordenadas (x,y) -> mirar librería GeoPy
 #para estimar distancias en línea recta
@@ -8,14 +9,21 @@
 import networkx as nx   #Librería de grafos
 import math as m        #Matemática
 
-
+#VARIABLES GLOBALES
+FICH_NODOS = "nodos.txt"
+FICH_ARISTAS_DISTANCIAS = "aristas_distancia.txt"
+RADIO = 6371
+dict_nodos = dict()
 
 def distancia(n1, n2):
-#Desde las coordenadas
-    x1, y1 = n1
-    x2, y2 = n2
+#Recibe 2 nombres de estaciones
+
+
+    x1, y1 = dict_nodos[n1]
+    x2, y2 = dict_nodos[n2]
 
     return m.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+
 
 def estaciones_por_linea():
 
@@ -99,77 +107,15 @@ def estaciones_por_linea():
 
 
 
-def latitud_longitud():
-
-    d = dict()
-
-
-    # Línea A:
-    d["Perrache"] = (45.74960, 4.82701)
-    d["Ampere Victor Hugo"] = (45.75290, 4.82909)
-    d["Bellecour"] = (45.75782, 4.83356)
-    d["Cordeliers"] = (45.76325, 4.83569)
-    d["Hotel de Ville Louis Pradel"] = (45.76741, 4.83628)
-    d["Foch"] = (45.76866, 4.84425)
-    d["Massena"] = (45.76936, 4.85294)
-    d["Charpennes Charles Henau"] = (45.77054, 4.86306)
-    d["Republique Villeurbanne"] = (45.77052, 4.87452)
-    d["Gratte-Ciel"] = (45.76905, 4.88251)
-    d["Fiachet"] = (45.76765, 4.88976)
-    d["Cusset"] = (45.76570, 4.90040)
-    d["Laurent Bonnevay Astroballe"] = (45.76481, 4.90892)
-    d["Vaulx-en-Velin La Sole"] = (45.76102, 4.92214)
-
-
-    # Línea B:
-
-
-    d["Oullins Gare"] = (45.71682, 4.81469)
-    d["Stade de Gerland"] = (45.72704, 4.83081)
-    d["Debourg"] = (45.73133, 4.83356)
-    d["Place Jean Jaures"] = (45.73800, 4.83751)
-    d["Jean Mace"] = (45.74586, 4.84236)
-    d["Saxe Gambetta"] = (45.75386, 4.84689)
-    d["Place Guichard Bourse du Travail"] = (45.75937, 4.84754)
-    d["Gare Part Dieu Vivier Merle"] = (45.76145, 4.85783)
-    d["Brotteaux"] = (45.76680, 4.85940)
-    d["Charpennes Charles Henau"] = (45.77054, 4.86306)
-
-    #Línea C:
-    d["Cuire"] = (45.78589, 4.83331)
-    d["Henon"] = (45.77920, 4.82738)
-    d["Croix-Rousse"] = (45.77431, 4.83174)
-    d["Croix-Paquet"] = (45.77089, 4.83595)
-    d["Hotel de Ville Louis Pradel"] = (45.76741, 4.83628)
-
-    #Línea D:
-    d["Gare de Vaise"] = (45.78040, 4.80504)
-    d["Valmy"] = (45.77462, 4.80550)
-    d["Gorge de Loup"] = (45.76602, 4.80512)
-    d["Vieux Lyon Cathedrale St. Jean"] = (45.75992, 4.82521)
-    d["Bellecour"] = (45.75784, 4.83337)
-    d["Guillotiere"] = (45.75536, 4.86235)
-    d["Saxe Gambetta"] = (45.75386, 4.84689)
-    d["Garibaldi"] = (45.75160, 4.85398)
-    d["Sans-Souci"] = (45.74793, 4.86433)
-    d["Monplaisir-Lumiere"] = (45.74980, 4.86285)
-    d["Grange Blanche"] = (45.74298, 4.87892)
-    d["Laennec"] = (45.73839, 4.88560)
-    d["Mermoz Pinel"] = (45.73039, 4.88668)
-    d["Parrilly"] = (45.71943, 4.88687)
-    d["Gare de Venissieux"] = (45.70521, 4.88791)
-
-
-    # Cuidado: las estructuras son inmutables.
-
-    return d
 
 def coordenadas():
 
+    #Se va a borrar en nada, pero todavía no
+
     #Devuelve un dict con ciudad -> coordenadas
 
-    #ld = estaciones_por_linea()
-    ld = latitud_longitud()
+    ld = estaciones_por_linea()
+    #ld = latitud_longitud()
 
     coord = dict()
 
@@ -179,7 +125,74 @@ def coordenadas():
 
     return coord
 
+
+def cargar_aristas_distancia(g):
+    file = open(FICH_ARISTAS_DISTANCIAS)
+    lineas = file.readlines()
+    for linea in lineas:
+        if not linea or linea.startswith("#"):
+            continue
+
+        linea = linea.strip()
+        estaciones = linea.split()
+
+        # #Formato: estacion1, est2, distancia
+        estacion1, estacion2, peso = estaciones
+
+        dist_euclidea = distancia(estacion1, estacion2)
+
+        #Añadir la arista con el peso
+        g.add_edge(estacion1, estacion2, weight = peso)
+
+
+def cargar_aristas_transbordo(g):
+    #TODO
+    pass
+
+def cargar_nodos(g):
+    #parsear el fichero nodos.txt
+
+    PERRACHE = (45.7496, 4.82701)
+
+    file = open(FICH_NODOS)
+    lineas = file.readlines()
+    for linea in lineas:
+        if not linea or linea.startswith("#"):
+            continue
+
+        linea = linea.strip()
+        partes = linea.split()
+
+        # Coordenadas (phi, tetha) Altitud y longitud
+        nombre, phi, tetha = partes
+
+        diff_tetha = PERRACHE[0] - tetha
+        diff_phi = PERRACHE[1] - phi
+
+        #Calculo geodesico de las coordenadas
+        x = math.pi * RADIO * diff_tetha / 180
+        y = math.pi * RADIO * diff_phi / 180
+
+        dict_nodos[nombre] = (x, y)
+        g.add_node(nombre)
+
 def cargar_grafo():
+
+    g_distancias = nx.Graph()
+
+    cargar_nodos(g_distancias)
+    cargar_aristas_distancia(g_distancias)
+
+    g_transbordos = nx.Graph()
+    cargar_nodos(g_distancias)
+    cargar_aristas_transbordo(g_transbordos)
+
+    return (g_distancias, g_transbordos)
+
+
+
+
+def cargar_grafo_deprecated():
 
     #Se puede introducir los valores aquí
 
@@ -220,4 +233,3 @@ def cargar_grafo():
    #Se pueden añadir en listas
 
     return g
-

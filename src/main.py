@@ -21,8 +21,11 @@ import backend.cargar_grafo as ini
 import backend.ruta as ruta
 
 
-g = ini.cargar_grafo()
+#g = ini.cargar_grafo()
+g = ini.cargar_grafo_deprecated()
 gui.dibujar(g)
+
+
 
 #Bucle: selección inicio y fin, calcular ruta e imprimir.
 print(ruta.ruta(g, "Gare de Vaise", "Fiachet"))

@@ -1,0 +1,17 @@
+#Formato: estacion1, est2, distancia
+
+#TRASBORDOS
+
+Hotel_de_Ville_Louis_Pradel_A Hotel_de_Ville_Louis_Pradel_C peso
+Charpennes_Charles_Henau_A Charpennes_Charles_Henau_B
+Saxe_Gambetta_B Saxe_Gambetta_D
+Bellecour_A Bellecour_D
+
+#LINEA A
+
+#LINEA B
+
+#LINEA C
+
+
+#LINEA D
