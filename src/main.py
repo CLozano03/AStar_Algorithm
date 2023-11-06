@@ -22,12 +22,8 @@ import backend.ruta as ruta
 
 
 g = ini.cargar_grafo()
-
-#print(g.degree("Madrid"))
-#print(ruta.ruta(g, "hola", 1))
-
-print(ruta.ruta(g, "Perrache", "Foch"))
-
-
 gui.dibujar(g)
+
+#Bucle: selección inicio y fin, calcular ruta e imprimir.
+print(ruta.ruta(g, "Gare de Vaise", "Fiachet"))
 
