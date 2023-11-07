@@ -1,0 +1,56 @@
+#Formato: estacion1 est2 distancia
+
+#TRASBORDOS
+Hotel_de_Ville_Louis_Pradel_A Hotel_de_Ville_Louis_Pradel_C 1
+Charpennes_Charles_Henau_A Charpennes_Charles_Henau_B 1
+Saxe_Gambetta_B Saxe_Gambetta_D 1
+Bellecour_A Bellecour_D 1
+
+
+#-------- LINEA A -------
+Perrache Ampere_Victor_Hugo 0
+Ampere_Victor_Hugo Bellecour_A 0
+Bellecour_A Cordeliers 0
+Cordeliers Hotel_de_Ville_Louis_Pradel_A 0
+Hotel_de_Ville_Louis_Pradel_A Foch 0
+Foch Massena 0
+Massena Charpennes_Charles_Henau_A 0
+Charpennes_Charles_Henau_A Republique_Villeurbanne 0
+Republique_Villeurbanne Gratte-Ciel 0
+Gratte-Ciel Fiachet 0
+Fiachet Cusset 0
+Cusset Laurent_Bonnevay_Astroballe 0
+Laurent_Bonnevay_Astroballe Vaulx-en-Velin_La_Sole 0
+
+#-------- LINEA B ------- 0
+OullinsGare Stade_de_Gerland 0
+Stade_de_Gerland Debourg 0
+Debourg Place_Jean_Jaures 0
+Place_Jean_Jaures Jean_Mace 0
+Jean_Mace Saxe_Gambetta_B 0
+Saxe_Gambetta_B Place_Guichard_Bourse_du_Travail 0
+Place_Guichard_Bourse_du_Travail Gare_Part_Dieu_Vivier_Merle 0
+Gare_Part_Dieu_Vivier_Merle Brotteaux 0
+Brotteaux Charpennes_Charles_Henau_B 0
+
+#-------- LINEA C -------
+Cuire Henon 0
+Henon Croix-Rousse 0
+Croix-Rousse Croix-Paquet 0
+Croix-Paquet Hotel_de_Ville_Louis_Pradel_C 0
+
+#-------- LINEA D ------- 0
+Gare_de_Vaise Valmy 0
+Valmy Gorge_de_Loup 0
+Gorge_de_Loup Vieux_Lyon_Cathedrale_St_Jean 0
+Vieux_Lyon_Cathedrale_St_Jean Bellecour_D 0
+Bellecour_D Guillotiere 0
+Guillotiere Saxe_Gambetta_D 0
+Saxe_Gambetta_D Garibaldi 0
+Garibaldi Sans-Souci 0
+Sans-Souci Monplaisir-Lumiere 0
+Monplaisir-Lumiere Grange_Blanche 0
+Grange_Blanche Laennec 0
+Laennec Mermoz_Pinel 0
+Mermoz_Pinel Parrilly 0
+Parrilly Gare_de_Venissieux 0

@@ -1,17 +1,56 @@
-#Formato: estacion1, est2, distancia
+#Formato: estacion1 est2 distancia
 
 #TRASBORDOS
-
-Hotel_de_Ville_Louis_Pradel_A Hotel_de_Ville_Louis_Pradel_C peso
-Charpennes_Charles_Henau_A Charpennes_Charles_Henau_B
-Saxe_Gambetta_B Saxe_Gambetta_D
-Bellecour_A Bellecour_D
-
-#LINEA A
-
-#LINEA B
-
-#LINEA C
+Hotel_de_Ville_Louis_Pradel_A Hotel_de_Ville_Louis_Pradel_C 1
+Charpennes_Charles_Henau_A Charpennes_Charles_Henau_B 1
+Saxe_Gambetta_B Saxe_Gambetta_D 1
+Bellecour_A Bellecour_D 1
 
 
-#LINEA D
+#-------- LINEA A -------
+Perrache Ampere_Victor_Hugo 1
+Ampere_Victor_Hugo Bellecour_A 1
+Bellecour_A Cordeliers 1
+Cordeliers Hotel_de_Ville_Louis_Pradel_A 1
+Hotel_de_Ville_Louis_Pradel_A Foch 1
+Foch Massena 1
+Massena Charpennes_Charles_Henau_A 1
+Charpennes_Charles_Henau_A Republique_Villeurbanne 1
+Republique_Villeurbanne Gratte-Ciel 1
+Gratte-Ciel Fiachet 1
+Fiachet Cusset 1
+Cusset Laurent_Bonnevay_Astroballe 1
+Laurent_Bonnevay_Astroballe Vaulx-en-Velin_La_Sole 1
+
+#-------- LINEA B ------- 1
+OullinsGare Stade_de_Gerland 1
+Stade_de_Gerland Debourg 1
+Debourg Place_Jean_Jaures 1
+Place_Jean_Jaures Jean_Mace 1
+Jean_Mace Saxe_Gambetta_B 1
+Saxe_Gambetta_B Place_Guichard_Bourse_du_Travail 1
+Place_Guichard_Bourse_du_Travail Gare_Part_Dieu_Vivier_Merle 1
+Gare_Part_Dieu_Vivier_Merle Brotteaux 1
+Brotteaux Charpennes_Charles_Henau_B 1
+
+#-------- LINEA C -------
+Cuire Henon 1
+Henon Croix-Rousse 1
+Croix-Rousse Croix-Paquet 1
+Croix-Paquet Hotel_de_Ville_Louis_Pradel_C 1
+
+#-------- LINEA D ------- 1
+Gare_de_Vaise Valmy 1
+Valmy Gorge_de_Loup 1
+Gorge_de_Loup Vieux_Lyon_Cathedrale_St_Jean 1
+Vieux_Lyon_Cathedrale_St_Jean Bellecour_D 1
+Bellecour_D Guillotiere 1
+Guillotiere Saxe_Gambetta_D 1
+Saxe_Gambetta_D Garibaldi 1
+Garibaldi Sans-Souci 1
+Sans-Souci Monplaisir-Lumiere 1
+Monplaisir-Lumiere Grange_Blanche 1
+Grange_Blanche Laennec 1
+Laennec Mermoz_Pinel 1
+Mermoz_Pinel Parrilly 1
+Parrilly Gare_de_Venissieux 1

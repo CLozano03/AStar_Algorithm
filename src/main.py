@@ -17,16 +17,15 @@ import networkx as nx   #Librería de grafos
 import matplotlib.pyplot as plt     #Librería gráfica
 
 import gui.interfaz as gui
-import backend.cargar_grafo as ini
+import backend.cargar_grafo as cg
 import backend.ruta as ruta
 
 
-#g = ini.cargar_grafo()
-g = ini.cargar_grafo_deprecated()
-gui.dibujar(g)
+g_dist, g_tras = cg.cargar_grafo()
 
+gui.dibujar(g_dist)
 
 
 #Bucle: selección inicio y fin, calcular ruta e imprimir.
-print(ruta.ruta(g, "Gare de Vaise", "Fiachet"))
+#print(ruta.ruta(g_dist, "Cuire", "Gare_de_Venissieux"))
 
