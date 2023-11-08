@@ -96,8 +96,8 @@ def cargar_nodos(g):
         # Coordenadas (phi, tetha) Altitud y longitud
         nombre, phi, tetha = partes
 
-        diff_tetha = float(tetha) - PERRACHE[0]
-        diff_phi = float(phi) - PERRACHE[1]
+        diff_phi = float(phi) - PERRACHE[0]
+        diff_tetha = float(tetha) - PERRACHE[1]
 
         #Calculo geodesico de las coordenadas
         x = math.pi * RADIO * diff_tetha / 180
@@ -117,7 +117,7 @@ def cargar_grafo():
     cargar_nodos(g_transbordos)
     cargar_aristas_transbordo(g_transbordos)
 
-    return (g_distancias, g_transbordos)
+    return (g_distancias, g_transbordos, dict_nodos)
 
 
 

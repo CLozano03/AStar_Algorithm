@@ -21,11 +21,11 @@ import backend.cargar_grafo as cg
 import backend.ruta as ruta
 
 
-g_dist, g_tras = cg.cargar_grafo()
+g_dist, g_tras, dict_nodos = cg.cargar_grafo()
 
 gui.dibujar(g_dist)
 
 
 #Bucle: selección inicio y fin, calcular ruta e imprimir.
-#print(ruta.ruta(g_dist, "Cuire", "Gare_de_Venissieux"))
+print(ruta.ruta(g_dist, "Cuire", "Gare_de_Venissieux", dict_nodos))
 
