@@ -8,6 +8,8 @@
 
 import networkx as nx   #Librería de grafos
 import math             #Matemática
+import IA.src.backend.ext as ext
+
 
 #VARIABLES GLOBALES
 FICH_NODOS = "backend/nodos.txt"
@@ -81,7 +83,7 @@ def cargar_aristas_transbordo(g):
 def cargar_nodos(g):
     #parsear el fichero nodos.txt
 
-    PERRACHE = (45.7496, 4.82701)
+    GARIBALDI = (45.75160, 4.85398)
 
 
     file = open(FICH_NODOS)
@@ -96,8 +98,8 @@ def cargar_nodos(g):
         # Coordenadas (phi, tetha) Altitud y longitud
         nombre, phi, tetha = partes
 
-        diff_phi = float(phi) - PERRACHE[0]
-        diff_tetha = float(tetha) - PERRACHE[1]
+        diff_phi = float(phi) - GARIBALDI[0]
+        diff_tetha = float(tetha) - GARIBALDI[1]
 
         #Calculo geodesico de las coordenadas
         x = math.pi * RADIO * diff_tetha / 180
