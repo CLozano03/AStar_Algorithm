@@ -39,7 +39,7 @@ Valmy 45.77462 4.80550
 Gorge_de_Loup 45.76602 4.80512
 Vieux_Lyon_Cathedrale_St_Jean 45.75992 4.82521
 Bellecour_D 45.75784 4.83337
-Guillotiere 45.75536 4.86235
+Guillotiere 45.75536 4.84205
 Saxe_Gambetta_D 45.75386 4.84689
 Garibaldi 45.75160 4.85398
 Sans-Souci 45.74793 4.86433
