@@ -27,12 +27,8 @@ def distancia(n1, n2):
     return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
 def coordenadas():
-
     #Lo piden desde FrontEnd
     return dict_nodos
-
-
-
 
 def cargar_aristas_distancia(g):
 
@@ -73,8 +69,8 @@ def cargar_aristas_transbordo(g):
 
         if estacion1 not in g.nodes or estacion2 not in g.nodes:
             #Para evitar fallos de escritura en el fichero
-            raise Exception
             print("Estación no en mapa")
+            raise Exception
 
         #Añadir la arista con el peso
         g.add_edge(estacion1, estacion2, weight = int(peso))
