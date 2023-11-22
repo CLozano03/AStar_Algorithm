@@ -14,7 +14,7 @@ import IA.src.backend.ext as ext
 #VARIABLES GLOBALES
 FICH_NODOS = "backend/nodos.txt"
 FICH_ARISTAS_DISTANCIAS = "backend/aristas_distancia.txt"
-FICH_ARISTAS_TRASBORDOS= "backend/aristas_trasbordo"
+FICH_ARISTAS_TRASBORDOS= "backend/aristas_trasbordo.txt"
 RADIO = 6371
 dict_nodos = dict()
 
