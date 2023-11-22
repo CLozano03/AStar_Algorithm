@@ -8,7 +8,6 @@
 
 import networkx as nx   #Librería de grafos
 import math             #Matemática
-import IA.src.backend.ext as ext
 
 
 #VARIABLES GLOBALES

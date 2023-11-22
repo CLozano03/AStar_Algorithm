@@ -12,8 +12,8 @@ def heuristica(n, v):
 def expandir(g, nodo, abierto):
 
     for n in g.neighbors(nodo):
-        if n not in abierto
-        abierto.add(n)
+        if n not in abierto:
+            abierto.add(n)
 
 
 
@@ -92,7 +92,9 @@ def ruta(g ,inicio, fin, dict_nodos):
     predecesores = astar_path(g, inicio, fin, dict_nodos)
     reconstruir_ruta(g, inicio, fin, predecesores)
 
+def ruta_deprecated(g, inicio, fin):
 
+    return nx.astar_path(g, inicio, fin)
 
 
 
