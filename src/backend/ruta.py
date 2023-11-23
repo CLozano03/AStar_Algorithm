@@ -11,7 +11,7 @@ def heuristica(n, v):
 
 def expandir(g, nodo, abierto):
 
-    for n in g.neighbors(nodo):
+    pass
        
 
 
