@@ -33,8 +33,9 @@ def astar_path(g, inicio, fin, dict_nodos):
     predecesores[inicio] = inicio
     abiertos.add(inicio)
 
+    N = inicio  #Nodo actual, inicialmente es el inicio
     #N no esta definido
-    while N != fin:
+    while N != fin and not monticulo.empty():
         if len(abiertos) == 0 or monticulo.empty():
             print("No se ha encontrado camino desde {0} a {1}".format(inicio, fin))
             return []
@@ -45,17 +46,21 @@ def astar_path(g, inicio, fin, dict_nodos):
         cerrados.add(N)
 
         for vecino in g.neighbors(N):
-            if vecino not in abiertos:
-                abiertos.add(vecino)
-
+            
             d_actual = distancias_origen[N] + g.edges[N, vecino]['weight']
-
-            if distancias_origen.get(vecino) == None or  d_actual < distancias_origen[vecino]:
+            
+            if distancias_origen.get(N) == None:
+                abiertos.add(vecino)
                 distancias_origen[vecino] = d_actual
 
+            f = d_actual + heuristica(vecino, fin)
+            
+
+            if d_actual < distancias_origen[vecino]:
+                distancias_origen[vecino] = d_actual
+                monticulo.remove(vecino)
                 predecesores[vecino] = N
 
-            f = distancias_origen[N] + g.edges[N, vecino]['weight'] + heuristica(vecino, fin)
             monticulo.put((f, vecino))
     
 
