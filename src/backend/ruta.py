@@ -12,8 +12,7 @@ def heuristica(n, v):
 def expandir(g, nodo, abierto):
 
     for n in g.neighbors(nodo):
-        if n not in abierto:
-            abierto.add(n)
+       
 
 
 
@@ -25,33 +24,47 @@ def astar_path(g, inicio, fin, dict_nodos):
     cerrados = set()        #Nodos visitados
 
     predecesores = dict()
-    distancias = dict()     #Contiene distancias desde inicio hasta origen
+    distancias_origen = dict()     #Contiene distancias desde inicio hasta origen
 
     monticulo = queue.PriorityQueue()
 
-    monticulo.put((0, inicio))
-    distancias[inicio] = 0
+    monticulo.put((heuristica(inicio,fin), inicio))
+    distancias_origen[inicio] = 0
     predecesores[inicio] = inicio
     abiertos.add(inicio)
 
+    #N no esta definido
     while N != fin:
         if len(abiertos) == 0 or monticulo.empty():
             print("No se ha encontrado camino desde {0} a {1}".format(inicio, fin))
             return []
 
         dist, N = monticulo.get() #Acceso a nodo mejor
-
-        h = dist + heuristica(N, fin)
-
-
-
-
-
-
+        expandir(g, N, abiertos)
         abiertos.remove(N)
         cerrados.add(N)
 
-        expandir(g, N, abiertos)
+        for vecino in g.neighbors(N):
+            if vecino not in abiertos:
+                abiertos.add(vecino)
+
+            d_actual = distancias_origen[N] + g.edges[N, vecino]['weight']
+
+            if distancias_origen.get(vecino) == None or  d_actual < distancias_origen[vecino]:
+                distancias_origen[vecino] = d_actual
+
+                predecesores[vecino] = N
+
+            f = distancias_origen[N] + g.edges[N, vecino]['weight'] + heuristica(vecino, fin)
+            monticulo.put((f, vecino))
+    
+
+
+
+
+
+
+
 
 
     return predecesores
