@@ -21,8 +21,8 @@ def expandir(g, nodo, abierto):
 def astar_path(g, inicio, fin, dict_nodos):
     #Toma el grafo, devuelve un diccionario de predecesores
 
-    abiertos = set()
-    cerrados = set()
+    abiertos = set()        #Nodos NO visitados
+    cerrados = set()        #Nodos visitados
 
     predecesores = dict()
     distancias = dict()     #Contiene distancias desde inicio hasta origen
@@ -34,15 +34,12 @@ def astar_path(g, inicio, fin, dict_nodos):
     predecesores[inicio] = inicio
     abiertos.add(inicio)
 
-    while True:
+    while N != fin:
         if len(abiertos) == 0 or monticulo.empty():
             print("No se ha encontrado camino desde {0} a {1}".format(inicio, fin))
             return []
 
         dist, N = monticulo.get() #Acceso a nodo mejor
-
-        if (N == fin):
-            break
 
         h = dist + heuristica(N, fin)
 
