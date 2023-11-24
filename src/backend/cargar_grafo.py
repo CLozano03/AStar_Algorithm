@@ -50,7 +50,7 @@ def cargar_aristas_distancia(g):
             print("Estación no en mapa")
 
         #Añadir la arista con el peso
-        g.add_edge(estacion1, estacion2, weight = int(peso))
+        g.add_edge(estacion1, estacion2, weight = float(peso))
 
 
 def cargar_aristas_transbordo(g):

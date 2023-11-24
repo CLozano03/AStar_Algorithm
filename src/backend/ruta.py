@@ -72,8 +72,9 @@ def astar_path(g, inicio, fin):
             if nodo_no_descubierto(vecino, distancias_origen):
                 descubrir_nodo(vecino, N, abiertos, distancias_origen, d_actual, predecesores)
 
-            elif d_actual < distancias_origen[vecino]:
-                mejorar_distancias(vecino, N, distancias_origen, d_actual, monticulo, predecesores)
+            else:
+                if d_actual < distancias_origen[vecino]:
+                    mejorar_distancias(vecino, N, distancias_origen, d_actual, monticulo, predecesores)
 
 
             monticulo.put((f, vecino))
