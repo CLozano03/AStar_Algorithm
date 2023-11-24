@@ -12,7 +12,19 @@ def heuristica(n, v):
 def expandir(g, nodo, abierto):
 
     pass
-       
+
+def nodo_no_descubierto(nodo, distancias_origen):
+
+    return distancias_origen.get(nodo) == None
+
+def descubrir_nodo(vecino, nodo_padre, abiertos, distancias_origen, d_actual, predecesores):
+    abiertos.add(vecino)
+    distancias_origen[vecino] = d_actual
+    predecesores[vecino] = nodo_padre
+
+def mejorar_distancias(vecino, nodo_padre, distancias_origen, d_actual, monticulo, predecesores):
+    distancias_origen[vecino] = d_actual
+    predecesores[vecino] = nodo_padre
 
 
 
@@ -30,47 +42,45 @@ def astar_path(g, inicio, fin, dict_nodos):
 
     monticulo.put((heuristica(inicio,fin), inicio))
     distancias_origen[inicio] = 0
+
     predecesores[inicio] = inicio
     abiertos.add(inicio)
 
     N = inicio  #Nodo actual, inicialmente es el inicio
-    #N no esta definido
+
+
     while N != fin and not monticulo.empty():
+
         if len(abiertos) == 0 or monticulo.empty():
             print("No se ha encontrado camino desde {0} a {1}".format(inicio, fin))
-            return []
+            break
 
         dist, N = monticulo.get() #Acceso a nodo mejor
         expandir(g, N, abiertos)
+
+        if N not in abiertos:
+            continue        #A veces introduce varios nodos abiertos en el montículo, evita un fallo
+
         abiertos.remove(N)
         cerrados.add(N)
 
+
         for vecino in g.neighbors(N):
-            
+
+            if vecino in cerrados:
+                continue
+
             d_actual = distancias_origen[N] + g.edges[N, vecino]['weight']
-            
-            if distancias_origen.get(N) == None:
-                abiertos.add(vecino)
-                distancias_origen[vecino] = d_actual
-
             f = d_actual + heuristica(vecino, fin)
-            
 
-            if d_actual < distancias_origen[vecino]:
-                distancias_origen[vecino] = d_actual
-                monticulo.remove(vecino)
-                predecesores[vecino] = N
+            if nodo_no_descubierto(vecino, distancias_origen):
+                descubrir_nodo(vecino, N, abiertos, distancias_origen, d_actual, predecesores)
+
+            elif d_actual < distancias_origen[vecino]:
+                mejorar_distancias(vecino, N, distancias_origen, d_actual, monticulo, predecesores)
+
 
             monticulo.put((f, vecino))
-    
-
-
-
-
-
-
-
-
 
     return predecesores
 
@@ -88,9 +98,6 @@ def reconstruir_ruta(g ,inicio, fin, dict_predecesores):
         return [*reconstruir_ruta(g, inicio, dict_predecesores[fin], dict_predecesores), fin]
 
 
-
-
-
 def ruta(g ,inicio, fin, dict_nodos):
 
     #Existencia de nodos
@@ -105,7 +112,9 @@ def ruta(g ,inicio, fin, dict_nodos):
 
 
     predecesores = astar_path(g, inicio, fin, dict_nodos)
-    reconstruir_ruta(g, inicio, fin, predecesores)
+    l = reconstruir_ruta(g, inicio, fin, predecesores)
+
+    return l
 
 def ruta_deprecated(g, inicio, fin):
 
