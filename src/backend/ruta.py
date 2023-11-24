@@ -9,9 +9,6 @@ def heuristica(n, v):
     return cg.distancia(n, v)
 
 
-def expandir(g, nodo, abierto):
-
-    pass
 
 def nodo_no_descubierto(nodo, distancias_origen):
 
@@ -29,7 +26,7 @@ def mejorar_distancias(vecino, nodo_padre, distancias_origen, d_actual, monticul
 
 
 
-def astar_path(g, inicio, fin, dict_nodos):
+def astar_path(g, inicio, fin):
     #Toma el grafo, devuelve un diccionario de predecesores
 
     abiertos = set()        #Nodos NO visitados
@@ -56,7 +53,6 @@ def astar_path(g, inicio, fin, dict_nodos):
             break
 
         dist, N = monticulo.get() #Acceso a nodo mejor
-        expandir(g, N, abiertos)
 
         if N not in abiertos:
             continue        #A veces introduce varios nodos abiertos en el montículo, evita un fallo
@@ -93,12 +89,11 @@ def reconstruir_ruta(g ,inicio, fin, dict_predecesores):
         return []
     if inicio == fin:
         return [inicio]
-        # lista.append(inicio)
     else:
         return [*reconstruir_ruta(g, inicio, dict_predecesores[fin], dict_predecesores), fin]
 
 
-def ruta(g ,inicio, fin, dict_nodos):
+def ruta(g ,inicio, fin):
 
     #Existencia de nodos
 
@@ -109,9 +104,7 @@ def ruta(g ,inicio, fin, dict_nodos):
         print("Error: no existe ruta")
         return []
 
-
-
-    predecesores = astar_path(g, inicio, fin, dict_nodos)
+    predecesores = astar_path(g, inicio, fin)
     l = reconstruir_ruta(g, inicio, fin, predecesores)
 
     return l
