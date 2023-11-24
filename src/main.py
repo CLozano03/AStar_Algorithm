@@ -23,8 +23,8 @@ import backend.ruta as ruta
 
 g_dist, g_tras, dict_nodos = cg.cargar_grafo()
 
-#print(ruta.ruta(g_dist, "Cuire", "Gare_de_Venissieux", dict_nodos))
-print(ruta.ruta_deprecated(g_dist, "Cuire", "Gare_de_Venissieux"))
+print(ruta.ruta(g_dist, "Cuire", "Parrilly"))
+#print(ruta.ruta_deprecated(g_dist, "Cuire", "Gare_de_Venissieux"))
 gui.dibujar(g_dist)
 
 
