@@ -23,12 +23,20 @@ import backend.ruta as ruta
 
 g_dist, g_tras, dict_nodos = cg.cargar_grafo()
 
-print(ruta.ruta(g_dist, "Hotel_de_Ville_Louis_Pradel_A", "Grange_Blanche"))
+
+
+l = ruta.ruta(g_dist, "Place_Guichard_Bourse_du_Travail", "Foch")
+#print(f"Ruta: {l}")
+#print(f"Longitud de nuestra ruta: {ruta.long_ruta(g_dist, l)}")
+#l2 = ruta.ruta_deprecated(g_dist, "Place_Guichard_Bourse_du_Travail", "Foch")
+#print(f"Longitud de ruta de la librería: {ruta.long_ruta(g_dist, l2)}")
+
+
 #print(ruta.ruta_deprecated(g_dist, "Cuire", "Gare_de_Venissieux"))
-gui.dibujar(g_dist)
+#gui.dibujar(g_dist)
 
 
-'''
+
 
 for i in g_dist.nodes():
     for j in g_dist.nodes():
@@ -45,7 +53,7 @@ for i in g_dist.nodes():
             print(l1)
             print(l2)
         print()
-'''
+
 
 
 #Bucle: selección inicio y fin, calcular ruta e imprimir.

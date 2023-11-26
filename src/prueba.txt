@@ -20,38 +20,24 @@ Ruta de Perrache hasta Massena:
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Perrache hasta Charpennes_Charles_Henau_A:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Perrache hasta Republique_Villeurbanne:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Perrache hasta Gratte-Ciel:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Perrache hasta Fiachet:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Perrache hasta Cusset:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Perrache hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Perrache hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Perrache hasta OullinsGare:
@@ -82,8 +68,6 @@ Ruta de Perrache hasta Brotteaux:
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Perrache hasta Charpennes_Charles_Henau_B:
-error: 
-['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Perrache', 'Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Perrache hasta Cuire:
@@ -168,38 +152,24 @@ Ruta de Ampere_Victor_Hugo hasta Massena:
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Ampere_Victor_Hugo hasta Charpennes_Charles_Henau_A:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Ampere_Victor_Hugo hasta Republique_Villeurbanne:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Ampere_Victor_Hugo hasta Gratte-Ciel:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Ampere_Victor_Hugo hasta Fiachet:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Ampere_Victor_Hugo hasta Cusset:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Ampere_Victor_Hugo hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Ampere_Victor_Hugo hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Ampere_Victor_Hugo hasta OullinsGare:
@@ -230,8 +200,6 @@ Ruta de Ampere_Victor_Hugo hasta Brotteaux:
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Ampere_Victor_Hugo hasta Charpennes_Charles_Henau_B:
-error: 
-['Ampere_Victor_Hugo', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Ampere_Victor_Hugo', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Ampere_Victor_Hugo hasta Cuire:
@@ -316,38 +284,24 @@ Ruta de Bellecour_A hasta Massena:
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Bellecour_A hasta Charpennes_Charles_Henau_A:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Bellecour_A hasta Republique_Villeurbanne:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Bellecour_A hasta Gratte-Ciel:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Bellecour_A hasta Fiachet:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Bellecour_A hasta Cusset:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Bellecour_A hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Bellecour_A hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Bellecour_A hasta OullinsGare:
@@ -378,8 +332,6 @@ Ruta de Bellecour_A hasta Brotteaux:
 ['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Bellecour_A hasta Charpennes_Charles_Henau_B:
-error: 
-['Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Bellecour_A hasta Cuire:
@@ -767,9 +719,7 @@ Ruta de Foch hasta Saxe_Gambetta_B:
 ['Foch', 'Hotel_de_Ville_Louis_Pradel_A', 'Cordeliers', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B']
 
 Ruta de Foch hasta Place_Guichard_Bourse_du_Travail:
-error: 
 ['Foch', 'Hotel_de_Ville_Louis_Pradel_A', 'Cordeliers', 'Bellecour_A', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail']
-['Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B', 'Brotteaux', 'Gare_Part_Dieu_Vivier_Merle', 'Place_Guichard_Bourse_du_Travail']
 
 Ruta de Foch hasta Gare_Part_Dieu_Vivier_Merle:
 ['Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B', 'Brotteaux', 'Gare_Part_Dieu_Vivier_Merle']
@@ -2704,9 +2654,7 @@ Ruta de Place_Guichard_Bourse_du_Travail hasta Hotel_de_Ville_Louis_Pradel_A:
 ['Place_Guichard_Bourse_du_Travail', 'Saxe_Gambetta_B', 'Saxe_Gambetta_D', 'Guillotiere', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A']
 
 Ruta de Place_Guichard_Bourse_du_Travail hasta Foch:
-error: 
 ['Place_Guichard_Bourse_du_Travail', 'Saxe_Gambetta_B', 'Saxe_Gambetta_D', 'Guillotiere', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch']
-['Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Massena', 'Foch']
 
 Ruta de Place_Guichard_Bourse_du_Travail hasta Massena:
 ['Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Massena']
@@ -2835,8 +2783,6 @@ Ruta de Gare_Part_Dieu_Vivier_Merle hasta Cordeliers:
 ['Gare_Part_Dieu_Vivier_Merle', 'Place_Guichard_Bourse_du_Travail', 'Saxe_Gambetta_B', 'Saxe_Gambetta_D', 'Guillotiere', 'Bellecour_D', 'Bellecour_A', 'Cordeliers']
 
 Ruta de Gare_Part_Dieu_Vivier_Merle hasta Hotel_de_Ville_Louis_Pradel_A:
-error: 
-['Gare_Part_Dieu_Vivier_Merle', 'Place_Guichard_Bourse_du_Travail', 'Saxe_Gambetta_B', 'Saxe_Gambetta_D', 'Guillotiere', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A']
 ['Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Massena', 'Foch', 'Hotel_de_Ville_Louis_Pradel_A']
 
 Ruta de Gare_Part_Dieu_Vivier_Merle hasta Foch:
@@ -2909,8 +2855,6 @@ Ruta de Gare_Part_Dieu_Vivier_Merle hasta Croix-Paquet:
 ['Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Massena', 'Foch', 'Hotel_de_Ville_Louis_Pradel_A', 'Hotel_de_Ville_Louis_Pradel_C', 'Croix-Paquet']
 
 Ruta de Gare_Part_Dieu_Vivier_Merle hasta Hotel_de_Ville_Louis_Pradel_C:
-error: 
-['Gare_Part_Dieu_Vivier_Merle', 'Place_Guichard_Bourse_du_Travail', 'Saxe_Gambetta_B', 'Saxe_Gambetta_D', 'Guillotiere', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Hotel_de_Ville_Louis_Pradel_C']
 ['Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Massena', 'Foch', 'Hotel_de_Ville_Louis_Pradel_A', 'Hotel_de_Ville_Louis_Pradel_C']
 
 Ruta de Gare_Part_Dieu_Vivier_Merle hasta Gare_de_Vaise:
@@ -3904,38 +3848,24 @@ Ruta de Gare_de_Vaise hasta Massena:
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Gare_de_Vaise hasta Charpennes_Charles_Henau_A:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Gare_de_Vaise hasta Republique_Villeurbanne:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Gare_de_Vaise hasta Gratte-Ciel:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Gare_de_Vaise hasta Fiachet:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Gare_de_Vaise hasta Cusset:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Gare_de_Vaise hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Gare_de_Vaise hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Gare_de_Vaise hasta OullinsGare:
@@ -3966,8 +3896,6 @@ Ruta de Gare_de_Vaise hasta Brotteaux:
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Gare_de_Vaise hasta Charpennes_Charles_Henau_B:
-error: 
-['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Gare_de_Vaise', 'Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Gare_de_Vaise hasta Cuire:
@@ -4052,38 +3980,24 @@ Ruta de Valmy hasta Massena:
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Valmy hasta Charpennes_Charles_Henau_A:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Valmy hasta Republique_Villeurbanne:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Valmy hasta Gratte-Ciel:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Valmy hasta Fiachet:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Valmy hasta Cusset:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Valmy hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Valmy hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Valmy hasta OullinsGare:
@@ -4114,8 +4028,6 @@ Ruta de Valmy hasta Brotteaux:
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Valmy hasta Charpennes_Charles_Henau_B:
-error: 
-['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Valmy', 'Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Valmy hasta Cuire:
@@ -4200,38 +4112,24 @@ Ruta de Gorge_de_Loup hasta Massena:
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Gorge_de_Loup hasta Charpennes_Charles_Henau_A:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Gorge_de_Loup hasta Republique_Villeurbanne:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Gorge_de_Loup hasta Gratte-Ciel:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Gorge_de_Loup hasta Fiachet:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Gorge_de_Loup hasta Cusset:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Gorge_de_Loup hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Gorge_de_Loup hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Gorge_de_Loup hasta OullinsGare:
@@ -4262,8 +4160,6 @@ Ruta de Gorge_de_Loup hasta Brotteaux:
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Gorge_de_Loup hasta Charpennes_Charles_Henau_B:
-error: 
-['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Gorge_de_Loup', 'Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Gorge_de_Loup hasta Cuire:
@@ -4348,38 +4244,24 @@ Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Massena:
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Charpennes_Charles_Henau_A:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Republique_Villeurbanne:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Gratte-Ciel:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Fiachet:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Cusset:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta OullinsGare:
@@ -4410,8 +4292,6 @@ Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Brotteaux:
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Charpennes_Charles_Henau_B:
-error: 
-['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Vieux_Lyon_Cathedrale_St_Jean', 'Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Vieux_Lyon_Cathedrale_St_Jean hasta Cuire:
@@ -4496,38 +4376,24 @@ Ruta de Bellecour_D hasta Massena:
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena']
 
 Ruta de Bellecour_D hasta Charpennes_Charles_Henau_A:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A']
 
 Ruta de Bellecour_D hasta Republique_Villeurbanne:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne']
 
 Ruta de Bellecour_D hasta Gratte-Ciel:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel']
 
 Ruta de Bellecour_D hasta Fiachet:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet']
 
 Ruta de Bellecour_D hasta Cusset:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset']
 
 Ruta de Bellecour_D hasta Laurent_Bonnevay_Astroballe:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe']
 
 Ruta de Bellecour_D hasta Vaulx-en-Velin_La_Sole:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Republique_Villeurbanne', 'Gratte-Ciel', 'Fiachet', 'Cusset', 'Laurent_Bonnevay_Astroballe', 'Vaulx-en-Velin_La_Sole']
 
 Ruta de Bellecour_D hasta OullinsGare:
@@ -4558,8 +4424,6 @@ Ruta de Bellecour_D hasta Brotteaux:
 ['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux']
 
 Ruta de Bellecour_D hasta Charpennes_Charles_Henau_B:
-error: 
-['Bellecour_D', 'Guillotiere', 'Saxe_Gambetta_D', 'Saxe_Gambetta_B', 'Place_Guichard_Bourse_du_Travail', 'Gare_Part_Dieu_Vivier_Merle', 'Brotteaux', 'Charpennes_Charles_Henau_B']
 ['Bellecour_D', 'Bellecour_A', 'Cordeliers', 'Hotel_de_Ville_Louis_Pradel_A', 'Foch', 'Massena', 'Charpennes_Charles_Henau_A', 'Charpennes_Charles_Henau_B']
 
 Ruta de Bellecour_D hasta Cuire:

@@ -110,6 +110,13 @@ def ruta(g ,inicio, fin):
 
     return l
 
+def long_ruta(g, l):
+
+    acc = 0
+    for i in range(0, len(l) - 1):
+        acc += g.edges[l[i], l[i+1]]['weight']
+
+    return acc
 def ruta_deprecated(g, inicio, fin):
 
     return nx.astar_path(g, inicio, fin)

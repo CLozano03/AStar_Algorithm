@@ -30,6 +30,31 @@ def coordenadas():
     return dict_nodos
 
 def cargar_aristas_distancia(g):
+    file = open(FICH_ARISTAS_DISTANCIAS)
+    lineas = file.readlines()
+    for linea in lineas:
+        if not linea or linea.startswith("#") or linea.startswith("\n"):
+            continue
+
+        linea = linea.strip()
+
+        # #Formato: estacion1, est2, distancia
+        estacion1, estacion2, peso = linea.split()
+
+        #dist_euclidea = distancia(estacion1, estacion2)
+
+        if estacion1 not in g.nodes or estacion2 not in g.nodes:
+            #Para evitar fallos de escritura en el fichero
+            raise Exception
+            print("Estación no en mapa")
+
+        #Añadir la arista con el peso
+        g.add_edge(estacion1, estacion2, weight = distancia(estacion1, estacion2))
+
+
+
+
+def cargar_aristas_distancia_deprecated(g):
 
     file = open(FICH_ARISTAS_DISTANCIAS)
     lineas = file.readlines()

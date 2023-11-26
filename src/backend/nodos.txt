@@ -43,7 +43,7 @@ Guillotiere 45.75536 4.84205
 Saxe_Gambetta_D 45.75386 4.84689
 Garibaldi 45.75160 4.85398
 Sans-Souci 45.74793 4.86433
-Monplaisir-Lumiere 45.74980 4.86285
+Monplaisir-Lumiere 45.74553 4.87128
 Grange_Blanche 45.74298 4.87892
 Laennec 45.73839 4.88560
 Mermoz_Pinel 45.73039 4.88668
