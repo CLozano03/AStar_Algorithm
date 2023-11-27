@@ -104,11 +104,16 @@ def cargar_nodos(g):
     #parsear el fichero nodos.txt
 
     GARIBALDI = (45.75160, 4.85398)
+    dict_por_lineas = dict()
+    linea_ABCD = 0
 
 
     file = open(FICH_NODOS)
-    lineas = file.readlines()
-    for linea in lineas:
+    fichero = file.readlines()
+    for linea in fichero:
+
+        if linea.startswith("#"):
+            linea_ABCD += 1
         if not linea or linea.startswith("#") or linea.startswith("\n"):
             continue
 
@@ -126,20 +131,25 @@ def cargar_nodos(g):
         y = math.pi * RADIO * diff_phi / 180
 
         dict_nodos[nombre] = (x, y)
+
+        dict_por_lineas[nombre] = linea_ABCD
+
         g.add_node(nombre)
+
+    return dict_por_lineas
 
 def cargar_grafo():
 
     g_distancias = nx.Graph()
 
-    cargar_nodos(g_distancias)
+    dict_por_lineas = cargar_nodos(g_distancias)
     cargar_aristas_distancia(g_distancias)
 
     g_transbordos = nx.Graph()
     cargar_nodos(g_transbordos)
     cargar_aristas_transbordo(g_transbordos)
 
-    return (g_distancias, g_transbordos, dict_nodos)
+    return (g_distancias, g_transbordos, dict_nodos, dict_por_lineas)
 
 
 

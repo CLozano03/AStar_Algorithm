@@ -3,10 +3,17 @@ import networkx as nx   #Librería de grafos
 from . import cargar_grafo as cg #Para la heuristica
 import queue    #Para el montículo
 
-def heuristica(n, v):
-
+def heuristica_distancia(f, n, v):
+#f no vale para nada, pero lo hace fácil de hacer con 2 heurísticas
     #Pasar por nombre
     return cg.distancia(n, v)
+
+def heuristica_trasbordo(dict_por_lineas, actual, fin):
+
+    if dict_por_lineas[actual] == dict_por_lineas[fin]:
+        return 0
+    else:
+        return 1
 
 
 
@@ -26,7 +33,7 @@ def mejorar_distancias(vecino, nodo_padre, distancias_origen, d_actual, monticul
 
 
 
-def astar_path(g, inicio, fin):
+def astar_path(g, heuristica, inicio, fin, dict_por_lineas):
     #Toma el grafo, devuelve un diccionario de predecesores
 
     abiertos = set()        #Nodos NO visitados
@@ -37,7 +44,7 @@ def astar_path(g, inicio, fin):
 
     monticulo = queue.PriorityQueue()
 
-    monticulo.put((heuristica(inicio,fin), inicio))
+    monticulo.put((heuristica(dict_por_lineas, inicio, fin), inicio))
     distancias_origen[inicio] = 0
 
     predecesores[inicio] = inicio
@@ -67,7 +74,7 @@ def astar_path(g, inicio, fin):
                 continue
 
             d_actual = distancias_origen[N] + g.edges[N, vecino]['weight']
-            f = d_actual + heuristica(vecino, fin)
+            f = d_actual + heuristica(dict_por_lineas, vecino, fin)
 
             if nodo_no_descubierto(vecino, distancias_origen):
                 descubrir_nodo(vecino, N, abiertos, distancias_origen, d_actual, predecesores)
@@ -93,19 +100,32 @@ def reconstruir_ruta(g ,inicio, fin, dict_predecesores):
     else:
         return [*reconstruir_ruta(g, inicio, dict_predecesores[fin], dict_predecesores), fin]
 
+def gestor(modo):
 
-def ruta(g ,inicio, fin):
+    if modo == "distancia":
+        return heuristica_distancia
+    elif modo == "trasbordo":
+        return heuristica_trasbordo
+    else:
+        print("Error: seleccione distancia o trasbordo")
+
+def ruta(g, inicio, fin, modo, dict_por_lineas):
 
     #Existencia de nodos
 
-    if inicio not in g.nodes or fin not in g.nodes:
+    if inicio not in g.nodes:
         print("Error: no existe el nodo{}".format(inicio))
+        return []
+    if fin not in g.nodes:
+        print("Error: no existe el nodo{}".format(fin))
         return []
     if g.degree(inicio) == 0 or g.degree(fin) == 0:
         print("Error: no existe ruta")
         return []
 
-    predecesores = astar_path(g, inicio, fin)
+    heuristica = gestor(modo)
+
+    predecesores = astar_path(g, heuristica, inicio, fin, dict_por_lineas)
     l = reconstruir_ruta(g, inicio, fin, predecesores)
 
     return l
