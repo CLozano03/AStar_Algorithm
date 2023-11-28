@@ -100,16 +100,26 @@ def reconstruir_ruta(g ,inicio, fin, dict_predecesores):
     else:
         return [*reconstruir_ruta(g, inicio, dict_predecesores[fin], dict_predecesores), fin]
 
-def gestor(modo):
+# def gestor(modo):
+#
+#     if modo == "distancia":
+#         return heuristica_distancia
+#     elif modo == "trasbordo":
+#         return heuristica_trasbordo
+#     else:
+#         print("Error: seleccione distancia o trasbordo")
+
+def ruta(g_dist, g_tras, inicio, fin, modo, dict_por_lineas):
+
 
     if modo == "distancia":
-        return heuristica_distancia
+        g = g_dist
+        heuristica = heuristica_distancia
     elif modo == "trasbordo":
-        return heuristica_trasbordo
+        g = g_tras
+        heuristica = heuristica_trasbordo
     else:
         print("Error: seleccione distancia o trasbordo")
-
-def ruta(g, inicio, fin, modo, dict_por_lineas):
 
     #Existencia de nodos
 
@@ -123,7 +133,9 @@ def ruta(g, inicio, fin, modo, dict_por_lineas):
         print("Error: no existe ruta")
         return []
 
-    heuristica = gestor(modo)
+    #heuristica = gestor(modo)
+
+
 
     predecesores = astar_path(g, heuristica, inicio, fin, dict_por_lineas)
     l = reconstruir_ruta(g, inicio, fin, predecesores)
