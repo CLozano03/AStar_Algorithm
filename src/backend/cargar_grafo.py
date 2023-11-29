@@ -151,6 +151,13 @@ def cargar_grafo():
 
     return (g_distancias, g_transbordos, dict_nodos, dict_por_lineas)
 
+class Buscador():
 
+    def __init__(self):
+        tupla = cargar_grafo()
+        self.g_distancias = tupla[0]
+        self.g_trasbordos = tupla[1]
+        self.dict_nodos = tupla[2]
+        self.dict_lineas = tupla[3]
 
 

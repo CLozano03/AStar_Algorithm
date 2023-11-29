@@ -109,14 +109,14 @@ def reconstruir_ruta(g ,inicio, fin, dict_predecesores):
 #     else:
 #         print("Error: seleccione distancia o trasbordo")
 
-def ruta(g_dist, g_tras, inicio, fin, modo, dict_por_lineas):
+def ruta(buscador, inicio, fin, modo):
 
 
     if modo == "distancia":
-        g = g_dist
+        g = buscador.g_distancias
         heuristica = heuristica_distancia
     elif modo == "trasbordo":
-        g = g_tras
+        g = buscador.g_trasbordos
         heuristica = heuristica_trasbordo
     else:
         print("Error: seleccione distancia o trasbordo")
@@ -137,7 +137,7 @@ def ruta(g_dist, g_tras, inicio, fin, modo, dict_por_lineas):
 
 
 
-    predecesores = astar_path(g, heuristica, inicio, fin, dict_por_lineas)
+    predecesores = astar_path(g, heuristica, inicio, fin, buscador.dict_lineas)
     l = reconstruir_ruta(g, inicio, fin, predecesores)
 
     return l

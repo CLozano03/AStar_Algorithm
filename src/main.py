@@ -20,14 +20,14 @@ import gui.interfaz as gui
 import backend.cargar_grafo as cg
 import backend.ruta as ruta
 
+buscador = cg.Buscador()
 
-g_dist, g_tras, dict_nodos, dict_por_lineas = cg.cargar_grafo()
+l = ruta.ruta(buscador, "Perrache", "OullinsGare", "distancia")
 
-
-l = ruta.ruta(g_dist, g_tras, "Perrache", "OullinsGare", "distancia", dict_por_lineas)
+print(buscador.dict_nodos.get("Perrache"))
 print(l)
-gui.dibujar(g_dist)
 
+gui.dibujar(buscador.g_distancias)
 
 
 
