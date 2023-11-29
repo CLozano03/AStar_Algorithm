@@ -1,0 +1,51 @@
+#-------- LINEA A -------
+Perrache 45.7496 4.82701
+Ampere_Victor_Hugo 45.7529 4.82909
+Bellecour_A 45.75782 4.83356
+Cordeliers 45.76325 4.83569
+Hotel_de_Ville_Louis_Pradel_A 45.76741 4.87
+Foch 45.76866 4.84425
+Massena 45.76936 4.85294
+Charpennes_Charles_Henau_A 45.77054 4.86306
+Republique_Villeurbanne 45.77052 4.87452
+Gratte-Ciel 45.76905 4.88251
+Fiachet 45.76765 4.88976
+Cusset 45.7657 4.9004
+Laurent_Bonnevay_Astroballe 45.76481 4.90892
+Vaulx-en-Velin_La_Sole 45.76102 4.92214
+
+#-------- LINEA B -------
+OullinsGare 45.71682 4.81469
+Stade_de_Gerland 45.72704 4.83081
+Debourg 45.73133 4.83356
+Place_Jean_Jaures 45.73800 4.83751
+Jean_Mace 45.74586 4.84236
+Saxe_Gambetta_B 45.75386 4.84689
+Place_Guichard_Bourse_du_Travail 45.75937 4.84754
+Gare_Part_Dieu_Vivier_Merle 45.76145 4.85783
+Brotteaux 45.76680 4.85940
+Charpennes_Charles_Henau_B 45.77054 4.86306
+
+#-------- LINEA C -------
+Cuire 45.73142 4.9176
+Henon 45.73142 4.9013
+Croix-Rousse 45.73142 4.89
+Croix-Paquet 45.73142 4.88
+Hotel_de_Ville_Louis_Pradel_C 45.73142 4.87
+
+#-------- LINEA D -------
+Gare_de_Vaise 45.78040 4.80504
+Valmy 45.77462 4.80550
+Gorge_de_Loup 45.76602 4.80512
+Vieux_Lyon_Cathedrale_St_Jean 45.75992 4.82521
+Bellecour_D 45.75784 4.83337
+Guillotiere 45.75536 4.84205
+Saxe_Gambetta_D 45.75386 4.84689
+Garibaldi 45.75160 4.85398
+Sans-Souci 45.74793 4.86433
+Monplaisir-Lumiere 45.74553 4.87128
+Grange_Blanche 45.74298 4.87892
+Laennec 45.73839 4.88560
+Mermoz_Pinel 45.73039 4.88668
+Parrilly 45.71943 4.88687
+Gare_de_Venissieux 45.70521 4.88791
