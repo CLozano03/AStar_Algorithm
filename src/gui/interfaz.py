@@ -19,7 +19,7 @@ import os
 FICH_NODOS = "gui/coord.txt"
 # FICH_NODOS = "backend/nodos.txt"
 
-def dibujar(g):
+def dibujar(buscador):
     
     pygame.init()
     size = (750,724)
@@ -88,7 +88,7 @@ def dibujar(g):
                             estacionLlegada = True
                         
         elif estacionLlegada:
-            l = ruta.ruta(g, nodoInicio, nodoDestino, "distancia")
+            l = ruta.ruta(buscador, nodoInicio, nodoDestino, "distancia")
             
             posiciones_deseadas = {}
             for nodo in l:

@@ -27,7 +27,7 @@ l = ruta.ruta(buscador, "Perrache", "OullinsGare", "distancia")
 print(buscador.dict_nodos.get("Perrache"))
 print(l)
 
-gui.dibujar(buscador.g_distancias)
+gui.dibujar(buscador)
 
 
 
