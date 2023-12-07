@@ -9,7 +9,7 @@ import time
 
 FICH_NODOS = "gui/coord.txt"
 
-def dibujar(buscador):
+def dibujar(g):
     
     pygame.init()
     size = (800,724)
