@@ -24,10 +24,13 @@ buscador = cg.Buscador()
 
 l = ruta.ruta(buscador, "Perrache", "OullinsGare", "distancia")
 
-print(buscador.dict_nodos.get("Perrache"))
-print(l)
+# print(buscador.dict_nodos.get("Perrache"))
+# print(buscador.dict_nodos.get("linea_A"))
 
-gui.dibujar(buscador.g_distancias)
+
+# print(l)
+
+gui.dibujar(buscador)
 
 
 
