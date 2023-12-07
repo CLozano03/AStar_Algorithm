@@ -1,6 +1,5 @@
 #Cargar nodos y aristas
 
-
 #Sería buena idea tener guardadas coordenadas (x,y) -> mirar librería GeoPy
 #para estimar distancias en línea recta
 
